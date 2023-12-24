@@ -1,1 +1,3 @@
-# DB-to-Excel-Converter
+This Python project is a simple tool with a graphical interface that allows users to convert a SQLite database file into an Excel spreadsheet. Users can select the database file using a file dialog, and upon clicking the "Convert to Excel" button, the program extracts data from a specified table in the database and saves it as 'output.xlsx' in the script's directory. The code uses `tkinter` for the GUI, `pandas` for data manipulation, and `sqlite3` for database connections. Users can customize the table name in the SQL query for data extraction. This project can be adapted for other database types with appropriate modifications.
+
+![image](https://github.com/7GitGuru/DB-to-Excel-Converter/assets/154711952/771ab39b-5726-43e9-ae5a-9c37c22e1569)
